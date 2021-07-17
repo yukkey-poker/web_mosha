@@ -1,0 +1,26 @@
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin: 0 auto;
+    padding: 0 28;
+}
+
+h1 {
+    background-color: darkolivegreen;
+    color:white
+}
+
+ul {
+    display: flex;
+    align-items:center
+}
+li {
+    padding-right: 40px;
+}
+
+.wrapper {
+    max-width: 960px;
+    padding:0 4%;
+    text-align: center;
+}
