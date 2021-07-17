@@ -1,3 +1,11 @@
+/*-------------------
+がんばれCSS！
+--------------------*/
+body{
+    color: #383e45;
+    font-size: 0.9rem;
+}
+
 header {
     display:flex;
     justify-content:space-between;
@@ -8,19 +16,47 @@ header {
 
 h1 {
     background-color: darkolivegreen;
-    color:white
+    color:white;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    border-style: none;
 }
 
 ul {
     display: flex;
-    align-items:center
+    align-items:center;
+    list-style:none;
+    padding: 10 0;
 }
-li {
+
+nav li {
     padding-right: 40px;
 }
 
+li a {
+    color:#24292e;
+}
+
+
+#mainvisual img{
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+    object-fit: cover;
+}
+
 .wrapper {
-    max-width: 960px;
-    padding:0 4%;
+    width: 960px;
+    margin: 0 auto 100px auto;
+    padding: 0 4%;
     text-align: center;
+}
+
+.content{
+
 }
